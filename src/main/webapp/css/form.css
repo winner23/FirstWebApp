@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+body { 
+	background-image: url("../img/background-pattern-007.jpg");	
+}
+
+h1 { 
+	color: yellow; 
+	background-color: #777777;
+}
+h2 {
+	color: blue;
+}
+table,th,td {
+	border: 0px solid #5463ed;
+    width: 100%;  
+}
+th{
+	background-color: #65cdcf;
+	color: white;
+	padding: 16px;
+}
+td {
+   
+    padding: 16px;
+}
+
+tr:nth-child(even){
+	background-color: #ffff4d
+	
+}

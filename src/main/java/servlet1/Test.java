@@ -11,6 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/test")
 public class Test extends HttpServlet {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public void doPost(HttpServletRequest request, HttpServletResponse response) 
 			throws ServletException, IOException{
 		
